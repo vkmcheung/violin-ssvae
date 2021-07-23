@@ -400,9 +400,9 @@ for training_size in  [13,1,2,3,4,5,6,7]: #number of labelled songs to train on 
         
         #%%Save model        
         if both ==1:        
-            model_name = 'ssvae-violin_both_trainingsize'+str(training_size)+'_testsong'+str(tekl)
+            model_name = 'violin-ssvae_both_trainingsize'+str(training_size)+'_testsong'+str(tekl)
         else:
-            model_name = 'ssvae-violin_one_trainingsize'+str(training_size)+'_testsong'+str(tekl)
+            model_name = 'violin-ssvae_one_trainingsize'+str(training_size)+'_testsong'+str(tekl)
         
         if savemodel:
             print("\nSaving models...")
